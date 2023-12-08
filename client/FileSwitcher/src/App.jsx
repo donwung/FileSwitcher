@@ -91,6 +91,26 @@ function App() {
                             TODO: add the ability to set whichever name I want for my presets
                             <br></br>
                             TODO: add the ability to also be able to navigate folder structures on the left side
+                            <br></br>
+                            NOTE: to select certain items, I would select/checkbox files (and folders) that I want to save
+                            <br></br>
+                            I would refer to selecting these items as lasso-ing
+                            <br></br>
+                            lasso-ed items are referred to by their address string
+                            <br></br>
+                            these location strings are stored in an array to be processed by the api
+                            <br></br>
+                            I can name the preset folder to whatever I want, then save all the lasso-ed files
+                            (and their respective directories) to FileSwitcher's snapshots
+                            <br></br>
+                            another thing I would save would be the location where the snapshot will apply to
+                            <br></br>
+                            so that I would be able to apply the changes to whenever I select to apply a preset
+                            <br></br>
+                            NOTE: folders should be copied *file for file, blank for blank*
+                            <br></br>
+                            if a folder is empty, the empty will be the preset
+
                         </p>
                     </div>
                 </div>
